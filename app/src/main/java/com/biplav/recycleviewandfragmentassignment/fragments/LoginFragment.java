@@ -46,6 +46,8 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         return view;
     }
 
+
+    
     @Override
     public void onClick(View v) {
         if (TextUtils.isEmpty(etuser.getText().toString())) {
